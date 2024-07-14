@@ -1,0 +1,6 @@
+{
+ "clientPort": 5173,
+ "serverPort": 3001,
+ "clientHost": "localhost",
+ "serverHost": "localhost"
+}
