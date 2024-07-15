@@ -46,7 +46,7 @@ export default function Header() {
        <img src={logo} alt="logo" width={176} />
       </div>
       <div>
-       <ul className='flex flex-wrap gap-4 mt-6 narrow justify-center'>
+       <ul className='flex flex-wrap  gap-4 mt-6 narrow justify-center px-4'>
         {pathList.map((route, i) => {
          return <li key={i} className=' hover:text-helper duration-medium relative' >
           <Link className='block w-full h-full tracking-[4px] font-thin' to={route.path}>
